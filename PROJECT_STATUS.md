@@ -39,7 +39,7 @@ Create a calm, low-friction wellbeing app for moments when a user feels anxious 
 
 ## Current checkpoint
 
-The first meaningful mobile-first preview is built in `app/`: welcome, low-pressure check-in, duration selection, recommendation, and a complete text-only grounding flow with stop/skip paths. The production build passes. The agreed content governance, Australia-only adult scope, local-data boundaries, and accessibility requirements remain in force.
+The mobile-first preview includes a working check-in matrix, multi-modality practice library, five-finger breathing and silent text-led practice steps. The optional spoken-guidance experiment was removed after user testing. The production build passes.
 
 ## Next action
 
@@ -65,6 +65,7 @@ Implement the local IndexedDB journal, expanded practice library, support and se
 | 14 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Removed unimplemented Journal and Settings navigation from the footer | The navigation now exposes only working Today and Practices flows until the local journal and settings are implemented |
 | 15 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Diagnosed stale local preview servers that kept serving an earlier purple stylesheet and restarted the app with cache re-optimisation | Future preview changes must be verified against the actual served CSS/asset rather than only the edited source or production build |
 | 16 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Created and pushed the public GitHub repository | The public `main` branch was pushed through an authenticated HTTPS remote; generated build files and the local dependency link were excluded |
+| 17 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Reverted optional spoken guidance after user testing | The device voice did not fit the intended soothing experience; the app returns to silent, text-led practice steps |
 
 ## Issues and risks
 
