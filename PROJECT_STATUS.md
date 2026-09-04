@@ -7,9 +7,9 @@
 - **Last updated:** 2026-09-04 AEST
 - **Completed:** Not complete
 - **Project directory:** `/Users/sabrina/Documents/Codex/projects/unwind-app`
-- **GitHub repository:** Not created
-- **Branch:** Not created
-- **Latest commit:** Not available
+- **GitHub repository:** https://github.com/sabrinabettini/unwind-app
+- **Branch:** `main`
+- **Latest commit:** `83100fdf9395625b5feb4bbb36a7404834856dc3`
 
 ## Goal
 
@@ -64,6 +64,7 @@ Implement the local IndexedDB journal, expanded practice library, support and se
 | 13 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Changed duration routing from a label-only choice into progressively longer practice sessions | Thirty seconds gives one concise practice; two minutes adds one extra small practice; five minutes and untimed choices offer a three-practice sequence, always one screen at a time and skippable |
 | 14 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Removed unimplemented Journal and Settings navigation from the footer | The navigation now exposes only working Today and Practices flows until the local journal and settings are implemented |
 | 15 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Diagnosed stale local preview servers that kept serving an earlier purple stylesheet and restarted the app with cache re-optimisation | Future preview changes must be verified against the actual served CSS/asset rather than only the edited source or production build |
+| 16 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Created and pushed the public GitHub repository | The public `main` branch was pushed through an authenticated HTTPS remote; generated build files and the local dependency link were excluded |
 
 ## Issues and risks
 
