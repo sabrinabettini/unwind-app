@@ -67,6 +67,7 @@ Implement the local IndexedDB journal, expanded practice library, support and se
 | 16 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Created and pushed the public GitHub repository | The public `main` branch was pushed through an authenticated HTTPS remote; generated build files and the local dependency link were excluded |
 | 17 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Reverted optional spoken guidance after user testing | The device voice did not fit the intended soothing experience; the app returns to silent, text-led practice steps |
 | 18 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Changed the red section-label accent to magenta | The blue-teal/seafoam system remains the base palette, with magenta used only for warm small-label accents |
+| 19 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | QA-tested every feeling/time recommendation route and corrected duplicate/mismatched quiet and untimed flows | All duration choices now have distinct primary practices within each feeling; five-minute and untimed labels align with their routing |
 
 ## Issues and risks
 
