@@ -2,10 +2,10 @@
 
 ## Summary
 
-- **Status:** In progress
+- **Status:** Complete
 - **Started:** 2026-09-04 AEST
 - **Last updated:** 2026-09-04 AEST
-- **Completed:** Not complete
+- **Completed:** 2026-09-04 AEST
 - **Project directory:** `/Users/sabrina/Documents/Codex/projects/unwind-app`
 - **GitHub repository:** https://github.com/sabrinabettini/unwind-app
 - **Branch:** `main`
@@ -43,7 +43,7 @@ The mobile-first preview includes a working check-in matrix, multi-modality prac
 
 ## Next action
 
-Implement the local IndexedDB journal, expanded practice library, support and settings screens, then add PWA/offline behaviour and verification.
+None. This accepted prototype is complete.
 
 ## Interaction log
 
@@ -80,4 +80,18 @@ Implement the local IndexedDB journal, expanded practice library, support and se
 
 ## Technologies, portfolio record, and ideal prompt
 
-To be completed after product scope and implementation choices are agreed.
+### Delivered outcome
+
+A responsive, locally runnable React/Vite wellbeing prototype with a warm blue-teal visual system, low-effort check-in, duration-aware practice routing, breathing and five-finger tracing, grounding, body, journal-prompt and quiet practices. It has clear skip/stop paths and Australian support details. It is intentionally silent and text-led.
+
+### Explicit exclusions from this accepted version
+
+Local saved journal entries, Settings, installable/offline PWA behaviour, recorded audio, accounts and analytics are not included.
+
+### Technology
+
+React, TypeScript, Vite and CSS; public GitHub repository on HTTPS. Model and exact reasoning/token details were not exposed by the environment.
+
+### Ideal one-shot prompt
+
+> Build a mobile-first React/TypeScript/Vite prototype called Unwind, a warm general-wellbeing app for adults in Australia. Keep it text-led and silent: no audio, autoplay, accounts, analytics, journal persistence or PWA/offline features. Use a blue-teal and seafoam palette with magenta accent labels and friendly local system fonts. Include a low-pressure check-in with six feelings and four duration choices. Each feeling/duration route must recommend a distinct, sensible set of one (30 sec), two (2 min), or three (5 min/no timer) small practices, shown one at a time with skip and stop controls. Include grounding, body, quiet visual, journal-prompt and optional breathing exercises; breathing must have an immediate grounding alternative. Add a five-finger tracing practice. Show Australian support contacts and state clearly that it is not medical care or crisis support. Provide a simple footer with only working Today and Practices views. Verify all 24 feeling/time combinations through the live browser UI, production-build the app, restart the preview with cache clearing, confirm the live server serves the changed assets, then create and push a public HTTPS GitHub repository.
