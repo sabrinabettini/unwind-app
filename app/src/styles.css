@@ -1,4 +1,4 @@
-:root { --paper: #f1fbfa; --ink: #1b4650; --muted: #55737a; --plum: #278495; --plum-deep: #176373; --coral: #e17467; --sage: #d6f0eb; --sage-deep: #317f83; --line: #bde0db; font-family: "Avenir Next", "Arial Rounded MT Bold", ui-rounded, "Trebuchet MS", Arial, sans-serif; color: var(--ink); background: var(--paper); font-synthesis: none; }
+:root { --paper: #f1fbfa; --ink: #1b4650; --muted: #55737a; --plum: #278495; --plum-deep: #176373; --coral: #b84982; --sage: #d6f0eb; --sage-deep: #317f83; --line: #bde0db; font-family: "Avenir Next", "Arial Rounded MT Bold", ui-rounded, "Trebuchet MS", Arial, sans-serif; color: var(--ink); background: var(--paper); font-synthesis: none; }
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 320px; min-height: 100vh; background: radial-gradient(circle at 88% 4%, #d4eef1 0 11%, transparent 31%), radial-gradient(circle at 6% 65%, #cfeee2 0 12%, transparent 29%), var(--paper); }
 button { font: inherit; cursor: pointer; }

@@ -66,6 +66,7 @@ Implement the local IndexedDB journal, expanded practice library, support and se
 | 15 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Diagnosed stale local preview servers that kept serving an earlier purple stylesheet and restarted the app with cache re-optimisation | Future preview changes must be verified against the actual served CSS/asset rather than only the edited source or production build |
 | 16 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Created and pushed the public GitHub repository | The public `main` branch was pushed through an authenticated HTTPS remote; generated build files and the local dependency link were excluded |
 | 17 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Reverted optional spoken guidance after user testing | The device voice did not fit the intended soothing experience; the app returns to silent, text-led practice steps |
+| 18 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Changed the red section-label accent to magenta | The blue-teal/seafoam system remains the base palette, with magenta used only for warm small-label accents |
 
 ## Issues and risks
 
