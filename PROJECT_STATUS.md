@@ -20,7 +20,7 @@ Create a calm, low-friction wellbeing app for moments when a user feels anxious 
 - **Tone:** Warm, human, reassuring, and concise; never clinical, patronising, or falsely cheerful.
 - **Privacy:** Journal entries saved locally on the device by default. The UI must explain that local storage is not automatically encrypted and provide clear delete/export controls.
 - **Platform:** Mobile-first installable web application/PWA, with desktop support and no backend required for the first release.
-- **Sensory scope:** Silent text remains the default. Optional, user-triggered spoken guidance uses the device's speech capability with speed and stop controls; there is no autoplay, music or ambient sound. Recorded offline audio assets remain future work.
+- **Sensory scope:** No audio, ambient sound, music, spoken guidance, or autoplay in the MVP.
 
 ## Current scope under discussion
 
@@ -39,11 +39,11 @@ Create a calm, low-friction wellbeing app for moments when a user feels anxious 
 
 ## Current checkpoint
 
-The mobile-first preview now includes a working check-in matrix, multi-modality practice library, optional five-finger breathing, and optional user-triggered spoken guidance for the visible step. Silent text remains the default and the full practice text stays visible. The production build passes.
+The first meaningful mobile-first preview is built in `app/`: welcome, low-pressure check-in, duration selection, recommendation, and a complete text-only grounding flow with stop/skip paths. The production build passes. The agreed content governance, Australia-only adult scope, local-data boundaries, and accessibility requirements remain in force.
 
 ## Next action
 
-Implement the local IndexedDB journal, settings and support screens, then add PWA/offline behaviour and verification. Decide later whether to create recorded offline audio assets rather than relying on device speech availability.
+Implement the local IndexedDB journal, expanded practice library, support and settings screens, then add PWA/offline behaviour and verification.
 
 ## Interaction log
 
@@ -65,13 +65,12 @@ Implement the local IndexedDB journal, settings and support screens, then add PW
 | 14 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Removed unimplemented Journal and Settings navigation from the footer | The navigation now exposes only working Today and Practices flows until the local journal and settings are implemented |
 | 15 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Diagnosed stale local preview servers that kept serving an earlier purple stylesheet and restarted the app with cache re-optimisation | Future preview changes must be verified against the actual served CSS/asset rather than only the edited source or production build |
 | 16 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Created and pushed the public GitHub repository | The public `main` branch was pushed through an authenticated HTTPS remote; generated build files and the local dependency link were excluded |
-| 17 | 2026-09-04 AEST | 2026-09-04 AEST | Not available | GPT-5 / Not available | Not available | Added optional Listen controls to practice steps | Listening never autoplays, offers gentle/standard speed and a stop control, and retains visible full text; it uses the device speech capability and cannot yet promise an offline recorded voice |
 
 ## Issues and risks
 
 - Breath-focused exercises can feel uncomfortable or intensify distress for some people; every breathing flow needs a visible alternative.
 - Journals may contain highly sensitive information and should remain local by default.
-- Optional spoken guidance must remain opt-in and never autoplay. Device voices and offline availability vary by browser; recorded audio would need separate consent, asset and offline-cache design.
+- Audio is deliberately excluded from the MVP because it may be overwhelming and adds licensing, autoplay, accessibility, and offline-size risks.
 - “Unwind” is descriptive and may not be sufficiently distinctive as a final product name; availability should be checked before publishing.
 - Crisis information must be accessible without making every ordinary use feel like a clinical emergency.
 - iOS Simulator testing is blocked in this environment because Xcode/Simulator is not installed as a runnable application; physical-device and simulator validation remain required before release.
