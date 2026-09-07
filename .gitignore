@@ -3,3 +3,8 @@ app/dist/
 app/.vite/
 *.tsbuildinfo
 .DS_Store
+
+# Local project-management documents
+/PROJECT_STATUS.md
+/IMPLEMENTATION_PLAN.md
+/TEST_PLAN.md
